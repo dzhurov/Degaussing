@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281A2A4013ED9A1D003D97FF /* icon-magnet.png in Resources */ = {isa = PBXBuildFile; fileRef = 281A2A3C13ED9A1D003D97FF /* icon-magnet.png */; };
+		281A2A4113ED9A1D003D97FF /* magnet.png in Resources */ = {isa = PBXBuildFile; fileRef = 281A2A3D13ED9A1D003D97FF /* magnet.png */; };
+		281A2A4213ED9A1D003D97FF /* onffButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 281A2A3E13ED9A1D003D97FF /* onffButton.png */; };
+		281A2A4313ED9A1D003D97FF /* onOffButton_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 281A2A3F13ED9A1D003D97FF /* onOffButton_pressed.png */; };
+		288E0FD013EAF24E0057F932 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288E0FCF13EAF24E0057F932 /* QuartzCore.framework */; };
+		28CE0FFE13EA8A6C00858309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CE0FFD13EA8A6C00858309 /* UIKit.framework */; };
+		28CE100013EA8A6C00858309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CE0FFF13EA8A6C00858309 /* Foundation.framework */; };
+		28CE100213EA8A6C00858309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CE100113EA8A6C00858309 /* CoreGraphics.framework */; };
+		28CE100813EA8A6C00858309 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28CE100613EA8A6C00858309 /* InfoPlist.strings */; };
+		28CE100B13EA8A6C00858309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE100A13EA8A6C00858309 /* main.m */; };
+		28CE100E13EA8A6C00858309 /* DegaussingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE100D13EA8A6C00858309 /* DegaussingAppDelegate.m */; };
+		28CE101113EA8A6C00858309 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CE100F13EA8A6C00858309 /* MainWindow.xib */; };
+		28CE101413EA8A6C00858309 /* DegaussingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE101313EA8A6C00858309 /* DegaussingViewController.m */; };
+		28CE101713EA8A6C00858309 /* DegaussingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CE101513EA8A6C00858309 /* DegaussingViewController.xib */; };
+		28CE101E13EA8A6C00858309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CE0FFD13EA8A6C00858309 /* UIKit.framework */; };
+		28CE101F13EA8A6C00858309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CE0FFF13EA8A6C00858309 /* Foundation.framework */; };
+		28CE102013EA8A6C00858309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CE100113EA8A6C00858309 /* CoreGraphics.framework */; };
+		28CE102813EA8A6C00858309 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28CE102613EA8A6C00858309 /* InfoPlist.strings */; };
+		28CE102B13EA8A6C00858309 /* DegaussingTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 28CE102A13EA8A6C00858309 /* DegaussingTests.h */; };
+		28CE102D13EA8A6C00858309 /* DegaussingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE102C13EA8A6C00858309 /* DegaussingTests.m */; };
+		28CE103A13EA93C000858309 /* icon-Table.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE103913EA93C000858309 /* icon-Table.png */; };
+		28CE103D13EA947A00858309 /* table@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE103B13EA947A00858309 /* table@2x.png */; };
+		28CE104013EA94AB00858309 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE103F13EA94AB00858309 /* table.png */; };
+		28CE104B13EA95B900858309 /* DegaussingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE104A13EA95B900858309 /* DegaussingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28CE102113EA8A6C00858309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CE0FF013EA8A6C00858309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CE0FF813EA8A6C00858309;
+			remoteInfo = Degaussing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281A2A3C13ED9A1D003D97FF /* icon-magnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-magnet.png"; sourceTree = "<group>"; };
+		281A2A3D13ED9A1D003D97FF /* magnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnet.png; sourceTree = "<group>"; };
+		281A2A3E13ED9A1D003D97FF /* onffButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onffButton.png; sourceTree = "<group>"; };
+		281A2A3F13ED9A1D003D97FF /* onOffButton_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onOffButton_pressed.png; sourceTree = "<group>"; };
+		288E0FCF13EAF24E0057F932 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		28CE0FF913EA8A6C00858309 /* Degaussing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Degaussing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CE0FFD13EA8A6C00858309 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28CE0FFF13EA8A6C00858309 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28CE100113EA8A6C00858309 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28CE100513EA8A6C00858309 /* Degaussing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Degaussing-Info.plist"; sourceTree = "<group>"; };
+		28CE100713EA8A6C00858309 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28CE100913EA8A6C00858309 /* Degaussing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Degaussing-Prefix.pch"; sourceTree = "<group>"; };
+		28CE100A13EA8A6C00858309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28CE100C13EA8A6C00858309 /* DegaussingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DegaussingAppDelegate.h; sourceTree = "<group>"; };
+		28CE100D13EA8A6C00858309 /* DegaussingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DegaussingAppDelegate.m; sourceTree = "<group>"; };
+		28CE101013EA8A6C00858309 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28CE101213EA8A6C00858309 /* DegaussingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DegaussingViewController.h; sourceTree = "<group>"; };
+		28CE101313EA8A6C00858309 /* DegaussingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DegaussingViewController.m; sourceTree = "<group>"; };
+		28CE101613EA8A6C00858309 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DegaussingViewController.xib; sourceTree = "<group>"; };
+		28CE101D13EA8A6C00858309 /* DegaussingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DegaussingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CE102513EA8A6C00858309 /* DegaussingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DegaussingTests-Info.plist"; sourceTree = "<group>"; };
+		28CE102713EA8A6C00858309 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28CE102913EA8A6C00858309 /* DegaussingTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DegaussingTests-Prefix.pch"; sourceTree = "<group>"; };
+		28CE102A13EA8A6C00858309 /* DegaussingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DegaussingTests.h; sourceTree = "<group>"; };
+		28CE102C13EA8A6C00858309 /* DegaussingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DegaussingTests.m; sourceTree = "<group>"; };
+		28CE103913EA93C000858309 /* icon-Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-Table.png"; sourceTree = "<group>"; };
+		28CE103B13EA947A00858309 /* table@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table@2x.png"; sourceTree = "<group>"; };
+		28CE103F13EA94AB00858309 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = "<group>"; };
+		28CE104913EA95B900858309 /* DegaussingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DegaussingView.h; sourceTree = "<group>"; };
+		28CE104A13EA95B900858309 /* DegaussingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DegaussingView.m; sourceTree = "<group>"; };
+		28CE104C13EA9F1100858309 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CE0FF613EA8A6C00858309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288E0FD013EAF24E0057F932 /* QuartzCore.framework in Frameworks */,
+				28CE0FFE13EA8A6C00858309 /* UIKit.framework in Frameworks */,
+				28CE100013EA8A6C00858309 /* Foundation.framework in Frameworks */,
+				28CE100213EA8A6C00858309 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE101913EA8A6C00858309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE101E13EA8A6C00858309 /* UIKit.framework in Frameworks */,
+				28CE101F13EA8A6C00858309 /* Foundation.framework in Frameworks */,
+				28CE102013EA8A6C00858309 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CE0FEE13EA8A6C00858309 = {
+			isa = PBXGroup;
+			children = (
+				28CE103813EA932C00858309 /* Resources */,
+				28CE100313EA8A6C00858309 /* Degaussing */,
+				28CE102313EA8A6C00858309 /* DegaussingTests */,
+				28CE0FFC13EA8A6C00858309 /* Frameworks */,
+				28CE0FFA13EA8A6C00858309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28CE0FFA13EA8A6C00858309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CE0FF913EA8A6C00858309 /* Degaussing.app */,
+				28CE101D13EA8A6C00858309 /* DegaussingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CE0FFC13EA8A6C00858309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				288E0FCF13EAF24E0057F932 /* QuartzCore.framework */,
+				28CE0FFD13EA8A6C00858309 /* UIKit.framework */,
+				28CE0FFF13EA8A6C00858309 /* Foundation.framework */,
+				28CE100113EA8A6C00858309 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28CE100313EA8A6C00858309 /* Degaussing */ = {
+			isa = PBXGroup;
+			children = (
+				28CE100C13EA8A6C00858309 /* DegaussingAppDelegate.h */,
+				28CE100D13EA8A6C00858309 /* DegaussingAppDelegate.m */,
+				28CE100F13EA8A6C00858309 /* MainWindow.xib */,
+				28CE101213EA8A6C00858309 /* DegaussingViewController.h */,
+				28CE101313EA8A6C00858309 /* DegaussingViewController.m */,
+				28CE101513EA8A6C00858309 /* DegaussingViewController.xib */,
+				28CE104C13EA9F1100858309 /* Constants.h */,
+				28CE104913EA95B900858309 /* DegaussingView.h */,
+				28CE104A13EA95B900858309 /* DegaussingView.m */,
+				28CE100413EA8A6C00858309 /* Supporting Files */,
+			);
+			path = Degaussing;
+			sourceTree = "<group>";
+		};
+		28CE100413EA8A6C00858309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28CE100513EA8A6C00858309 /* Degaussing-Info.plist */,
+				28CE100613EA8A6C00858309 /* InfoPlist.strings */,
+				28CE100913EA8A6C00858309 /* Degaussing-Prefix.pch */,
+				28CE100A13EA8A6C00858309 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28CE102313EA8A6C00858309 /* DegaussingTests */ = {
+			isa = PBXGroup;
+			children = (
+				28CE102A13EA8A6C00858309 /* DegaussingTests.h */,
+				28CE102C13EA8A6C00858309 /* DegaussingTests.m */,
+				28CE102413EA8A6C00858309 /* Supporting Files */,
+			);
+			path = DegaussingTests;
+			sourceTree = "<group>";
+		};
+		28CE102413EA8A6C00858309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28CE102513EA8A6C00858309 /* DegaussingTests-Info.plist */,
+				28CE102613EA8A6C00858309 /* InfoPlist.strings */,
+				28CE102913EA8A6C00858309 /* DegaussingTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28CE103813EA932C00858309 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				281A2A3C13ED9A1D003D97FF /* icon-magnet.png */,
+				281A2A3D13ED9A1D003D97FF /* magnet.png */,
+				281A2A3E13ED9A1D003D97FF /* onffButton.png */,
+				281A2A3F13ED9A1D003D97FF /* onOffButton_pressed.png */,
+				28CE103913EA93C000858309 /* icon-Table.png */,
+				28CE103F13EA94AB00858309 /* table.png */,
+				28CE103B13EA947A00858309 /* table@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CE0FF813EA8A6C00858309 /* Degaussing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CE103013EA8A6C00858309 /* Build configuration list for PBXNativeTarget "Degaussing" */;
+			buildPhases = (
+				28CE0FF513EA8A6C00858309 /* Sources */,
+				28CE0FF613EA8A6C00858309 /* Frameworks */,
+				28CE0FF713EA8A6C00858309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Degaussing;
+			productName = Degaussing;
+			productReference = 28CE0FF913EA8A6C00858309 /* Degaussing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28CE101C13EA8A6C00858309 /* DegaussingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CE103313EA8A6C00858309 /* Build configuration list for PBXNativeTarget "DegaussingTests" */;
+			buildPhases = (
+				28CE101813EA8A6C00858309 /* Sources */,
+				28CE101913EA8A6C00858309 /* Frameworks */,
+				28CE101A13EA8A6C00858309 /* Resources */,
+				28CE101B13EA8A6C00858309 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CE102213EA8A6C00858309 /* PBXTargetDependency */,
+			);
+			name = DegaussingTests;
+			productName = DegaussingTests;
+			productReference = 28CE101D13EA8A6C00858309 /* DegaussingTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CE0FF013EA8A6C00858309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 28CE0FF313EA8A6C00858309 /* Build configuration list for PBXProject "Degaussing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28CE0FEE13EA8A6C00858309;
+			productRefGroup = 28CE0FFA13EA8A6C00858309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CE0FF813EA8A6C00858309 /* Degaussing */,
+				28CE101C13EA8A6C00858309 /* DegaussingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CE0FF713EA8A6C00858309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE100813EA8A6C00858309 /* InfoPlist.strings in Resources */,
+				28CE101113EA8A6C00858309 /* MainWindow.xib in Resources */,
+				28CE101713EA8A6C00858309 /* DegaussingViewController.xib in Resources */,
+				28CE103A13EA93C000858309 /* icon-Table.png in Resources */,
+				28CE103D13EA947A00858309 /* table@2x.png in Resources */,
+				28CE104013EA94AB00858309 /* table.png in Resources */,
+				281A2A4013ED9A1D003D97FF /* icon-magnet.png in Resources */,
+				281A2A4113ED9A1D003D97FF /* magnet.png in Resources */,
+				281A2A4213ED9A1D003D97FF /* onffButton.png in Resources */,
+				281A2A4313ED9A1D003D97FF /* onOffButton_pressed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE101A13EA8A6C00858309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE102813EA8A6C00858309 /* InfoPlist.strings in Resources */,
+				28CE102B13EA8A6C00858309 /* DegaussingTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28CE101B13EA8A6C00858309 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CE0FF513EA8A6C00858309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE100B13EA8A6C00858309 /* main.m in Sources */,
+				28CE100E13EA8A6C00858309 /* DegaussingAppDelegate.m in Sources */,
+				28CE101413EA8A6C00858309 /* DegaussingViewController.m in Sources */,
+				28CE104B13EA95B900858309 /* DegaussingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE101813EA8A6C00858309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE102D13EA8A6C00858309 /* DegaussingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28CE102213EA8A6C00858309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CE0FF813EA8A6C00858309 /* Degaussing */;
+			targetProxy = 28CE102113EA8A6C00858309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28CE100613EA8A6C00858309 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CE100713EA8A6C00858309 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28CE100F13EA8A6C00858309 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CE101013EA8A6C00858309 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		28CE101513EA8A6C00858309 /* DegaussingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CE101613EA8A6C00858309 /* en */,
+			);
+			name = DegaussingViewController.xib;
+			sourceTree = "<group>";
+		};
+		28CE102613EA8A6C00858309 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CE102713EA8A6C00858309 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28CE102E13EA8A6C00858309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28CE102F13EA8A6C00858309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		28CE103113EA8A6C00858309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Degaussing/Degaussing-Prefix.pch";
+				INFOPLIST_FILE = "Degaussing/Degaussing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28CE103213EA8A6C00858309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Degaussing/Degaussing-Prefix.pch";
+				INFOPLIST_FILE = "Degaussing/Degaussing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28CE103413EA8A6C00858309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Degaussing.app/Degaussing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DegaussingTests/DegaussingTests-Prefix.pch";
+				INFOPLIST_FILE = "DegaussingTests/DegaussingTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		28CE103513EA8A6C00858309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Degaussing.app/Degaussing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DegaussingTests/DegaussingTests-Prefix.pch";
+				INFOPLIST_FILE = "DegaussingTests/DegaussingTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CE0FF313EA8A6C00858309 /* Build configuration list for PBXProject "Degaussing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CE102E13EA8A6C00858309 /* Debug */,
+				28CE102F13EA8A6C00858309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CE103013EA8A6C00858309 /* Build configuration list for PBXNativeTarget "Degaussing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CE103113EA8A6C00858309 /* Debug */,
+				28CE103213EA8A6C00858309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CE103313EA8A6C00858309 /* Build configuration list for PBXNativeTarget "DegaussingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CE103413EA8A6C00858309 /* Debug */,
+				28CE103513EA8A6C00858309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CE0FF013EA8A6C00858309 /* Project object */;
+}
